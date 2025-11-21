@@ -1,0 +1,37 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# User-specific files
+*.db
+*.pdb
+*.mdb
+*.scc
+
+# Publish Output
+publish/
