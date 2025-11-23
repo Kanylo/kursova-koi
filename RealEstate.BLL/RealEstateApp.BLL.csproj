@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RealEstate.DAL\RealEstateApp.DAL.csproj" />
+    
+  </ItemGroup>
+
 </Project>

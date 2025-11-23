@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RealEstate.Tests</RootNamespace>
+    <AssemblyName>RealEstate.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealEstate.BLL\RealEstate.BLL.csproj" />
+    <ProjectReference Include="..\RealEstate.DAL\RealEstate.DAL.csproj" />
+    <ProjectReference Include="..\RealEstate.Common\RealEstate.Common.csproj" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+  </ItemGroup>
+
+</Project>
